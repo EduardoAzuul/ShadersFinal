@@ -76,7 +76,7 @@ Material:
     - _NivelesColor: 6
     - _Ondulacion: 0.5
     - _PotenciaFresnel: 2.5
-    - _ProbabilidadGlitch: 0.15
+    - _ProbabilidadGlitch: 1
     - _Pulso: 0.268
     - _QueueControl: 0
     - _QueueOffset: 0

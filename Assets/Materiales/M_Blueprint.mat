@@ -38,23 +38,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CantidadDecoraciones: 0.35
-    - _DensidadCuadricula: 3.7
+    - _CantidadDecoraciones: 1
+    - _DensidadCuadricula: 0.5
     - _EscalaGrano: 1698
-    - _GrosorContorno: 0
-    - _GrosorCuadricula: 0.0057
-    - _IntensidadDither: 0.8
+    - _GrosorContorno: 0.1
+    - _GrosorCuadricula: 0.011
+    - _IntensidadDither: 1
     - _IntensidadGrano: 0.451
-    - _NitidezTriplanar: 26.7
-    - _OpacidadDecoraciones: 0.85
+    - _NitidezTriplanar: 32
+    - _OpacidadDecoraciones: 1
     - _OpacidadSubdivisiones: 0.116
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Semilla: 1954
-    - _Subdivisiones: 3.14
-    - _TamanoDither: 3.71
+    - _Subdivisiones: 3.07
+    - _TamanoDither: 1.88
     - _UmbralLuz: 0.654
-    - _UmbralSombra: 0.4
+    - _UmbralSombra: 0.7
     m_Colors:
     - _BaseColor: {r: 0.14901961, g: 0.35072407, b: 0.6784314, a: 1}
     - _ColorBordes: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}

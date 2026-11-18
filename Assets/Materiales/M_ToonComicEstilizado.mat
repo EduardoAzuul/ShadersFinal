@@ -42,21 +42,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AnchoBorde: 0.289
-    - _Angulo: 48.5
+    - _AnchoBorde: 0.5
+    - _Angulo: 90
     - _Bandas: 3.57
     - _Brillo: 50
     - _EscalaTrama: 18.3
     - _FuerzaBrillo: 1
-    - _FuerzaSombra: 0.608
-    - _IntensidadTinta: 1.22
+    - _FuerzaSombra: 0
+    - _IntensidadTinta: 0.86
     - _LimpiarZonaClara: 1
     - _NitidezTriplanar: 8
     - _ProporcionU: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Suavizado: 0.326
-    - _UmbralPuntos: 0.221
+    - _Suavizado: 0.273
+    - _UmbralPuntos: 0.2
     m_Colors:
     - _BaseColor: {r: 0.95, g: 0.25, b: 0.2, a: 1}
     - _ColorBorde: {r: 1, g: 0.93, b: 0.75, a: 1}
