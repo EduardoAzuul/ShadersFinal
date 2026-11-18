@@ -228,11 +228,11 @@ normal = add_node('NormalVectorNode', -2850, 280, group=g2)                    #
 light = add_node('MainLightDirectionNode', -2850, 420, group=g2)
 dot = add_node('DotProductNode', -2600, 320, group=g2)
 remap = add_node('RemapNode', -2380, 320,
-                 slot_values={1: v2(-1, 1), 2: v2(1, 0)}, group=g2)            # D: 1 = oscuro, 0 = iluminado
+                 slot_values={1: v2(-1, 1), 2: v2(0, 1)}, group=g2)            # D: 1 = oscuro, 0 = iluminado
 edge(normal, 0, dot, 0)
 edge(light, 0, dot, 1)
 edge(dot, 2, remap, 0)
-note('Main Light Direction apunta HACIA donde viaja la luz, por eso el Remap invierte: '
+note('Main Light Direction apunta HACIA donde viaja la luz, así que N·dir = -1 en la cara iluminada; el Remap (-1..1 → 0..1) da: '
      'D = 0 en la cara iluminada y D = 1 en la cara en sombra. '
      'D alimenta a las bandas toon (3) y al tamaño de los puntos (4).',
      -2850, 560, 420, 100, g2)

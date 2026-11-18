@@ -38,26 +38,26 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CantidadDecoraciones: 1
+    - _CantidadDecoraciones: 0.376
     - _DensidadCuadricula: 0.5
     - _EscalaGrano: 1698
-    - _GrosorContorno: 0.1
+    - _GrosorContorno: 0.028
     - _GrosorCuadricula: 0.011
-    - _IntensidadDither: 1
+    - _IntensidadDither: 0.414
     - _IntensidadGrano: 0.451
-    - _NitidezTriplanar: 32
-    - _OpacidadDecoraciones: 1
+    - _NitidezTriplanar: 20
+    - _OpacidadDecoraciones: 0.387
     - _OpacidadSubdivisiones: 0.116
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Semilla: 1954
-    - _Subdivisiones: 3.07
-    - _TamanoDither: 1.88
+    - _Subdivisiones: 1.65
+    - _TamanoDither: 2.2
     - _UmbralLuz: 0.654
-    - _UmbralSombra: 0.7
+    - _UmbralSombra: 0.635
     m_Colors:
     - _BaseColor: {r: 0.14901961, g: 0.35072407, b: 0.6784314, a: 1}
-    - _ColorBordes: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    - _ColorBordes: {r: 1, g: 0.96300876, b: 0, a: 1}
     - _ColorLineas: {r: 0.90660524, g: 1, b: 0.69411767, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
